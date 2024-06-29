@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #ffffff; /* White background */
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+#gameCanvas {
+    border: 1px solid #ccc;
+    background: url('background.jpg') no-repeat center center; /* Replace with your image path */
+    background-size: cover;
+}
